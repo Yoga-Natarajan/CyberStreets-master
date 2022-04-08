@@ -1,0 +1,109 @@
+
+
+#appContainer{
+    height: 100%;
+    width: 100%;
+    background-image: url("src\app\cyberstreetsbg.png");
+    background-size: cover;
+    min-height: 100vh;
+    overflow: scroll;
+  
+}
+
+#cardStyle{
+    background-color: rgb(255,255,255,0.4);
+    box-shadow: 5px 3px 10px 5px gray;
+
+    /* Center the signin box */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+
+    margin: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#cardBody{
+    background-color: rgb(255,255,255,0.4);
+    box-shadow: 5px 3px 10px 5px gray;
+
+    /* Center the signin box */
+    float:left;
+    width: 50%;
+    height: 50%;
+
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+#cardtab{
+    background-color: rgb(255,255,255,0.4);
+    box-shadow: 5px 3px 10px 5px gray;
+
+    /* Center the signin box */
+    float:right;
+    width: 30%;
+    height: 100%;
+
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  
+}
+#logout{
+    margin-right:5%;
+    margin-left: 85%;
+    margin-top: 3%;
+}
+#cardchild{
+    width: 30%;
+    display: inline;
+
+}
+.title1 h5 {
+    display: inline; 
+    width: 300px;
+    margin: 5%;
+ 
+   
+}
+
+.title1 img {
+    display: inline; 
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+    margin-left: 1%;
+   
+}
+.title2 h5 {
+    margin: 5%; 
+   
+}
+.title2 p {
+    float : right; 
+    margin-right: 15%;
+    margin-top: 5%;
+   
+}
+#overview p{
+    margin : 10%;
+}
+#overview h2{
+    margin-left: 5%;
+}
+
+
+img {
+    margin:5px;
+}
+
+#driver{
+    margin: 0 auto;
+}
+#carinfo {
+    float: right;
+}

@@ -1,0 +1,80 @@
+
+
+ <html>
+   
+ <body>
+ 
+    <div id="appContainer"> 
+            <div id="logout">
+                <a routerLink="/app" routerLinkActive="active"><button id="submitButton" type="submit" class="btn btn-primary">Log out</button></a>
+            </div>
+            <div id="cardBody">
+                <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" width="700" height="400"></iframe>        
+            </div>
+
+        <div id="cardtab">        
+            <div id="carchild" >
+                <button class="w3-bar-item w3-button" onclick="openCity('driver')" >Driver Info</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('info')">Trip Info</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('overview')">Trip overview</button>
+            </div>
+            <div id="driver" class="w3-container w3-display-container city">
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-large w3-display-topright">&times;</span>
+                <div class="title1">
+                  
+                    <h5>Meet Jane</h5>
+                    <img src="assets/img/smile.png"/>
+                </div>
+                <img src="assets/img/driver.jpg"  width = "200" height = "150" margin = "5">
+                <img src="assets/img/star.png"  float = "right" width = "100" height = "20" margin = "5">
+                
+                <div class="title2">
+                            
+                    <h5>Car Info</h5> 
+                    <img src="assets/img/car.jpg" width="150" height="100" > 
+                    <p>  White RAV4 <br> Lincese plate: 7DC06 </p>
+                         
+                   
+                </div>
+
+                
+
+            </div>
+            
+            <div id="info" class="w3-container w3-display-container city" style="display:none">
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Trip Info</h2>
+
+            </div>
+            
+            <div id="overview" class="w3-container w3-display-container city" style="display:none">
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Trip overview</h2>
+                <p>Jane is driving to <b> Your current location </b></p> 
+                <p>
+                    Pick up location: 301 Church Ave<br>
+                    Picked up at: 9:30 am<br>
+                    Drop Off: Atlanta Metro Station<br>
+                    Estimated Drop Off time: 15 Min<br>
+                    Actual Drop off time: 11 Min<br>
+                    Trip Distance: 5 miles<br>
+                    <br>
+                    Overall Carbon Emission: 0.002t CO2 <br>
+                    Carbon Emission saved VS Uber/Lyft: -0.001t CO2<br>
+                    <br>
+                    Cost of Ride: $10.00
+                </p>
+            </div>
+        </div>     
+          
+        
+    </div>
+ 
+
+</body>  
+</html>
+
